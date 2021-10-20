@@ -1,0 +1,1 @@
+{"version":3,"sources":["_header.scss","_footer.scss","_home.scss"],"names":[],"mappings":"AAAA;EACE;;;ACDF;EACE;;;ACDF;EACE","file":"../style.css","sourcesContent":["header {\n  background: white;\n}\n","footer {\n  color: red;\n}\n",".home {\n  font-size: 20px;\n}\n"]}
