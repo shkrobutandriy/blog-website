@@ -5,81 +5,100 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Red+Hat+Display&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <header></header>
-    <main>
+    <header class="header"></header>
+    <main class="main">
       <div class="container">
-        <div class="works"></div>
-        <div class="posts">
-          <div class="heading">
-            <h3 class="heading_h3">Latest Posts</h3>
-            <div class="post__all">
-              <h6 class="heading_h6">View All</h6>
-              <p class="arrow_2">&#8594;</p>
-            </div>
-          </div>
-          <div class="post_main">
-            <div class="posts_column">
-              <div class="post">
-                <div class="info">
-                  <div class="img">
-                    <img class="post_img" src="image/post_Img 01.png" alt="" />
-                  </div>
-                  <div class="posts__tag_date">
-                    <p class="heading_h9">Interface Design</p>
-                    <p class="heading_h9">8 June, 2020</p>
-                  </div>
-                  <h3 class="heading_h3">UX traffic light colours</h3>
-                  <h5 class="posts_p heading_h5">
-                    UI has to make a huge visual difference between warning, an
-                    alert and a success.
-                  </h5>
-                </div>
+        <div class="works">
+          <div class="posts">
+            <div class="heading">
+              <h3 class="heading_h3">Latest Posts</h3>
+              <div class="post__all">
+                <h6 class="heading_h6">View All</h6>
+                <p class="arrow_2">&#8594;</p>
               </div>
             </div>
-            <div class="posts_column">
-              <div class="post">
-                <div class="info">
-                  <div class="img">
-                    <img class="post_img" src="image/post_Img 02.png" alt="" />
+            <div class="post_main row">
+              <div class="posts_column col-sm-4 col-xs-12">
+                <div class="post">
+                  <div class="info">
+                    <div class="img">
+                      <img
+                        class="post_img"
+                        src="image/post_Img 01.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="posts__tag_date">
+                      <p class="heading_h9 mb">Interface Design</p>
+                      <p class="heading_h9">8 June, 2020</p>
+                    </div>
+                    <h3 class="heading_h3">UX traffic light colours</h3>
+                    <h5 class="posts_p heading_h5">
+                      UI has to make a huge visual difference between warning,
+                      an alert and a success.
+                    </h5>
                   </div>
-                  <div class="posts__tag_date">
-                    <div class="heading_h9">Technology</div>
-                    <div class="heading_h9">6 May, 2020</div>
-                  </div>
-                  <h3 class="heading_h3">
-                    Using UX Design to Build a Sustainable Future
-                  </h3>
-                  <h5 class="posts_p heading_h5">
-                    Transformation has to be driven by everybody, not just by
-                    climate groups.
-                  </h5>
                 </div>
               </div>
-            </div>
-            <div class="posts_column">
-              <div class="post">
-                <div class="info">
-                  <div class="img">
-                    <img class="post_img" src="image/post_Img 03.png" alt="" />
+              <div class="posts_column col-sm-4 col-xs-12">
+                <div class="post">
+                  <div class="info">
+                    <div class="img">
+                      <img
+                        class="post_img"
+                        src="image/post_Img 02.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="posts__tag_date">
+                      <p class="heading_h9">Technology</p>
+                      <p class="heading_h9">6 May, 2020</p>
+                    </div>
+                    <h3 class="heading_h3">
+                      Using UX Design to Build a Sustainable Future
+                    </h3>
+                    <h5 class="posts_p heading_h5">
+                      Transformation has to be driven by everybody, not just by
+                      climate groups.
+                    </h5>
                   </div>
-                  <div class="posts__tag_date">
-                    <div class="heading_h9">Visual Design</div>
-                    <div class="heading_h9">8 June, 2020</div>
+                </div>
+              </div>
+              <div class="posts_column col-sm-4 col-xs-12">
+                <div class="post">
+                  <div class="info">
+                    <div class="img">
+                      <img
+                        class="post_img"
+                        src="image/post_Img 03.png"
+                        alt=""
+                      />
+                    </div>
+                    <div class="posts__tag_date">
+                      <p class="heading_h9">Visual Design</p>
+                      <p class="heading_h9">8 June, 2020</p>
+                    </div>
+                    <h3 class="heading_h3">Creativity vs. UX</h3>
+                    <h5 class="posts_p heading_h5">
+                      Is it possible to create a delightful user experience
+                      without following best UX practices?
+                    </h5>
                   </div>
-                  <h3 class="heading_h3">Creativity vs. UX</h3>
-                  <h5 class="posts_p heading_h5">
-                    Is it possible to create a delightful user experience
-                    without following best UX practices?
-                  </h5>
                 </div>
               </div>
             </div>
@@ -88,10 +107,26 @@
       </div>
     </main>
     <footer class="footer">
-      <div class="container footer_br">
-        <div class="footer_contact"></div>
-        <div class="footer_social"></div>
-        <div class="footer_copy"></div>
+      <div class="container">
+        <div class="row">
+          <div class="footer_contact col-xs-12 col-sm-6">
+            <h1 class="heading_h1">Need a project?</h1>
+            <h6 class="heading_h6 tel">(239) 555-0108</h6>
+            <h6 class="heading_h6">tanya.hill@example.com</h6>
+          </div>
+          <div class="footer_social col-xs-12 col-sm-3">
+            <h6 class="heading_h6">Facebook</h6>
+            <h6 class="heading_h6">Instagram</h6>
+            <h6 class="heading_h6">Dribbble</h6>
+            <h6 class="heading_h6">Linkedin</h6>
+          </div>
+          <div class="footer_copy col-xs-8 col-sm-3 align-self-end">
+            <p class="heading_9">
+              © Copyright Manifest Theme.<br />
+              Allrights reserved
+            </p>
+          </div>
+        </div>
       </div>
     </footer>
   </body>
