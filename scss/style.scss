@@ -2,13 +2,13 @@
 @import "base/reset";
 
 // Base
-@import "base/base.scss";
+@import "base/base";
 
 // Components
-@import "components/buttons.scss";
+@import "components/buttons";
 
 // Pages
-@import "pages/home.scss";
+@import "pages/home";
 
 // type
 @import "base/typography";
@@ -17,4 +17,6 @@
 @import "base/templates";
 
 //pages posts
-@import "pages/posts.scss";
+@import "pages/posts";
+
+@import "pages/works";
