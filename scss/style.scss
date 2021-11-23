@@ -15,9 +15,9 @@
 
 //templates
 @import "base/templates";
-
-//pages posts
+@import "pages/header";
+@import "pages/title";
+@import "pages/info";
 @import "pages/posts";
-
 @import "pages/works";
 @import "pages/footer.scss";

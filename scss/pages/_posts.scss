@@ -1,13 +1,18 @@
 .posts {
   margin-bottom: 128px;
-  @media (max-width: 576px) {
-    margin-bottom: 64px;
+  @media (max-width: 767px) {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
   }
   & .heading {
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
-    @media (max-width: 576px) {
+    @media (max-width: 767px) {
       display: flex;
       flex-direction: column;
       margin-bottom: 48px;
@@ -16,7 +21,7 @@
     .post__all {
       display: flex;
       justify-content: space-between;
-      @media (max-width: 576px) {
+      @media (max-width: 767px) {
         display: flex;
         justify-content: flex-start;
       }
@@ -25,13 +30,16 @@
   & .post_main {
     display: flex;
     justify-content: space-between;
-    @media (max-width: 576px) {
-      max-width: 288px;
+    @media (max-width: 767px) {
+      width: 100%;
+      height: auto;
       display: flex;
       flex-direction: column;
     }
     .posts_column {
       display: flex;
+      @media (max-width: 767px) {
+      }
       .post {
         display: flex;
       }
@@ -39,12 +47,12 @@
   }
   & .img {
     img.post_img {
-      max-width: 100%;
-      height: 250px;
-      object-fit: unset;
-      @media (max-width: 576px) {
-        width: 288px;
-        height: 211px;
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      @media (max-width: 767px) {
+        width: 100%;
+        height: auto;
         object-fit: cover;
       }
     }
@@ -52,16 +60,21 @@
   & .info {
     display: flex;
     flex-direction: column;
-    min-height: 475px;
+
+    @media (max-width: 767px) {
+      margin-bottom: 0px;
+      justify-content: center;
+    }
+
     .posts__tag_date {
       display: flex;
       justify-content: space-between;
       margin: 24px 0px;
-      @media (max-width: 576px) {
+      @media (max-width: 767px) {
         margin: 16px 0 24px 0;
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
+        justify-content: center;
         p:nth-child(1) {
           margin-bottom: 8px;
         }
@@ -70,11 +83,6 @@
     h3.heading_h3 {
       flex: 1 1 auto;
       margin-bottom: 24px;
-    }
-    h5 {
-      @media (max-width: 576px) {
-        margin-bottom: 48px;
-      }
     }
   }
 }

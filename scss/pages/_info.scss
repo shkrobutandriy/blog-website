@@ -1,0 +1,20 @@
+.info {
+  margin: 128px 0;
+  @media (max-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+  & .info_h {
+    @media (max-width: 767px) {
+      margin-bottom: 48px;
+    }
+    .arrow_1 {
+      margin: 48px 0 0 0;
+      @media (max-width: 767px) {
+        margin: 24px 0 0 0;
+      }
+    }
+  }
+}
