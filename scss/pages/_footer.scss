@@ -1,5 +1,7 @@
 .footer {
-  color: #000;
+  & a:hover {
+    color: red;
+  }
   padding: 128px 160px;
   background-color: #f4f4f4;
   @media (max-width: 1440px) {
@@ -11,6 +13,14 @@
     padding: 64px 0 68px 0;
   }
   & .footer_contact {
+    & a {
+      display: block;
+      margin-top: 16px;
+      color: black;
+    }
+    a:first-child {
+      margin: 32px 0 0 0;
+    }
     h1 {
       @media (max-width: 767px) {
         font-family: "Red Hat Display", sans-serif;
@@ -20,11 +30,19 @@
         color: #000;
       }
     }
-    h6:nth-child(2) {
+    .phone {
       margin: 32px 0 16px 0;
+      text-decoration: none;
       @media (max-width: 767px) {
         margin: 18px 0 16px 0;
       }
+    }
+    .mail {
+      text-decoration: none;
+    }
+    & a:hover {
+      color: rgb(80, 78, 79);
+      text-decoration: underline;
     }
   }
   & .footer_social {
@@ -36,9 +54,14 @@
     }
     a {
       text-decoration: none;
+      color: black;
     }
     a:nth-child(-n + 3) {
       margin: 0 0 24px 0;
+    }
+    & a:hover {
+      color: rgb(80, 78, 79);
+      text-decoration: underline;
     }
   }
 }

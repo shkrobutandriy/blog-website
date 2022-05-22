@@ -1,0 +1,36 @@
+.blog_cate {
+  display: flex;
+  margin: 114px 0 48px 0;
+  // position: relative;
+
+  .blog__cate_subt {
+    color: black;
+    margin-right: 40px;
+  }
+  .blog__cate_select {
+    width: 408px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 21px;
+    .blog__sel_item {
+      // color: #565656;
+    }
+    .blog__sel_dropdown {
+      height: 10px;
+      align-self: center;
+    }
+  }
+}
+// .blog__cate_select:before {
+//   content: "";
+//   position: absolute;
+//   margin-left: auto;
+//   margin-right: auto;
+//   bottom: -21px;
+//   right: 19px;
+//   height: 1px;
+//   background: black;
+//   display: block;
+//   width: 407px;
+// }

@@ -1,0 +1,36 @@
+.blog_slide {
+  margin-top: 96px;
+  img.slide__img_item {
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+  }
+  .blog__slide_info {
+    .blog__info_tag {
+      margin: 50px 0 24px 0;
+    }
+    // .blog__info_title {
+    // }
+    .blog__info_date {
+      margin: 16px 0 48px 0;
+    }
+    .blog__info_p {
+      .arrow_1 {
+        width: 50px;
+      }
+    }
+    .slide_num {
+      display: flex;
+      margin-top: 94px;
+      .slide__num_item:nth-child(2) {
+        margin: 0 24px;
+      }
+      .slide__num_item {
+        color: black;
+      }
+      .slide__num_active {
+        color: #7b7b7b;
+      }
+    }
+  }
+}
